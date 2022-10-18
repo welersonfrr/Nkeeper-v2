@@ -4,7 +4,7 @@ Versão 2 do tomador de tarefas Nkeeper
 Contando com tema escuro e totalmente responsivo
 
 
-![captura-de-tela-cel](https://user-images.githubusercontent.com/89513813/196315198-0837c8b9-a2cf-4bbb-858e-e75cd091697c.png =200x20)
+![captura-de-tela-cel](https://user-images.githubusercontent.com/89513813/196315198-0837c8b9-a2cf-4bbb-858e-e75cd091697c.png)
 ![captura-de-tela-note](https://user-images.githubusercontent.com/89513813/196315216-c13b1305-4dbb-420c-bcec-d45a22fa6bf0.png)
 
 # DARK THEME
