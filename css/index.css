@@ -1,0 +1,84 @@
+.stretch-button {
+  width: 100%;
+}
+
+body,
+table {
+  transition-duration: 0.2s;
+}
+
+.btn-logout {
+  background-color: var(--color-blue-1);
+  color: var(--main-text-color);
+  position: absolute;
+  z-index: 998;
+  right: 15px;
+  top: 05px;
+}
+
+.btn-switch {
+  background-color: var(--color-blue-1);
+  color: var(--main-text-color);
+  position: absolute;
+  z-index: 999;
+  right: 15px;
+  bottom: 15px;
+}
+
+.dark-theme {
+  --background-color: #303136ff;
+  --main-text-color: #fff;
+  --sub-text-color: #a8a8a8ff;
+  --table-even-bg: #393943ff;
+  --table-odd-bg: #393943ff;
+  --input-bg-color: #393943ff;
+}
+
+.light-theme {
+  --background-color: #f7f6f9ff;
+  --main-text-color: #000;
+  --sub-text-color: #000;
+  --table-even-bg: #ccc;
+  --table-odd-bg: #fff;
+  --input-bg-color: #fff;
+}
+
+body,
+.modal-content {
+  background-color: var(--background-color);
+}
+
+.table {
+  border-color: var(--table-odd-bg);
+}
+
+input[type="text"],
+input[type="text"]:focus,
+textarea,
+.modal-content {
+  background-color: var(--input-bg-color);
+  color: var(--main-text-color);
+}
+
+h1 {
+  color: var(--main-text-color);
+}
+
+tr:nth-child(even) {
+  background: var(--table-even-bg);
+}
+tr:nth-child(odd) {
+  background: var(--table-odd-bg);
+}
+
+th {
+  color: var(--main-text-color);
+}
+
+td {
+  color: var(--sub-text-color);
+}
+
+#switcher {
+  color: var(--main-text-color);
+}

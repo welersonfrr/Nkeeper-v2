@@ -1,0 +1,39 @@
+.main-login {
+  background-color: #4649ff;
+  height: 90vh;
+  margin-top: 5vh;
+  content: "";
+  animation: surgir 0.4s;
+}
+
+#nkeeper-logo {
+  animation: surgir 0.4s;
+}
+
+.form-control,
+.input-group-text {
+  animation: surgir 0.7s;
+}
+
+.btn {
+  animation: fadein 1.5s;
+}
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
